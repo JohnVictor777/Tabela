@@ -1,0 +1,151 @@
+/* GERAL */
+
+body {
+    background-color: #DCDCDC;
+}
+
+:root {
+    --navy: #000080;
+    --cornflowerBlue: #6495ED;
+    --midnightBlue: #191970;
+    --darkSlateBlue: #483D8B;
+    --white: #fff;
+    --black: #000;
+    --silver: #C0C0C0;
+    --red: #FF0000;
+    --darkRed: #8B0000;
+}
+
+
+#nav {
+    width: 100%;
+    height: 15vh;
+    background-color: var(--navy);
+    color: var(--white);
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    line-height: 14vh;
+}
+
+/* FORMULARIO */
+
+#input-data {
+    width: 90vw;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+    margin-top: 5vh;
+    display: flex;
+
+}
+
+.input-text {
+    flex: 1;
+    min-width: 210px;
+    margin: 5px;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #262626;
+    transition: 0.25s;
+    outline: none;
+}
+
+.input-text:focus {
+    border-color: var(--navy);
+}
+
+.input-btn {
+    flex: 1;
+    margin: 5px;
+    height: 39px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--darkSlateBlue);
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+.input-btn:hover {
+    background-color: var(--midnightBlue);
+    border-color: var(--midnightBlue);
+    color: var(--white);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+/* TABELA */
+
+#myTable {
+    font-family: 'Ubuntu', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5vh;
+    border-collapse: collapse;
+}
+
+#myTable th {
+    background-color: var(--navy);
+    padding: 10px;
+    color: var(--white);
+    font-weight: 700;
+
+}
+
+#myTable td,
+th {
+    border: 1px solid var(--silver);
+    padding: 8px;
+
+}
+
+#myTable td {
+    padding: 5px;
+
+}
+
+
+tr {
+    text-align: center;
+}
+
+#myTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+    font-weight: 600;
+
+}
+
+#myTable tr:hover {
+    background-color: var(--silver);
+
+}
+
+
+.remove-btn {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-width: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--red);
+
+}
+
+.remove-btn:hover {
+    color: var(--darkRed);
+
+}
+
+::placeholder {
+    font-weight: 700;
+}
