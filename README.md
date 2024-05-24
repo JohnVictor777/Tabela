@@ -2,11 +2,14 @@
 
 Este é um simples aplicativo CRUD (Create, Read, Update, Delete) desenvolvido utilizando HTML, CSS e JavaScript. Ele permite criar, visualizar, atualizar e excluir itens de uma lista.
 
+![crud](https://github.com/JohnVictor777/Tabela/assets/126363638/02fdc547-f959-400b-9bd4-cd208f09e9a3)
+
+![crud3](https://github.com/JohnVictor777/Tabela/assets/126363638/93d96dfd-6c17-4982-8b85-addaebffbda9)
+
 ## Funcionalidades
 
 - **Criação**: Adicione novos itens à lista fornecendo um nome e uma descrição.
 - **Leitura**: Visualize todos os itens da lista com seus nomes e descrições.
-- **Atualização**: Atualize o nome ou a descrição de um item existente.
 - **Exclusão**: Remova um item da lista.
 
 ## Tecnologias Utilizadas
